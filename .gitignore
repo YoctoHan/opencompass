@@ -1,7 +1,6 @@
 .DS_Store
 output_*/
 outputs/
-scripts/
 icl_inference_output/
 .vscode/
 tmp/
