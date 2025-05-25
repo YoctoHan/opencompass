@@ -4,7 +4,7 @@ from opencompass.openicl.icl_inferencer import GenInferencer
 from opencompass.datasets import GSM8KDataset, gsm8k_postprocess, gsm8k_dataset_postprocess, Gsm8kEvaluator
 
 
-gsm8k_reader_cfg = dict(input_columns=['question'], output_column='answer')
+gsm8k_reader_cfg = dict(input_columns=['question'], output_column='answer', test_range="[0:1024]")
 
 gsm8k_infer_cfg = dict(
     prompt_template=dict(

@@ -18,10 +18,10 @@ models = [
         tokenizer_path='/Qwen3-32B', # 请求服务时的 tokenizer name 或 path, 为None时使用默认tokenizer gpt-4
         rpm_verbose=True, # 是否打印请求速率
         meta_template=api_meta_template, # 服务请求模板
-        query_per_second=1, # 服务请求速率
+        query_per_second=3, # 服务请求速率
         max_out_len=38912, # 最大输出长度
         max_seq_len=40960, # 最大输入长度
-        batch_size=1, # 批处理大小
+        batch_size=4, # 批处理大小
         retry=100, # 重试次数
     )
 ]

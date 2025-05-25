@@ -21,7 +21,7 @@ models = [
         query_per_second=3, # 服务请求速率
         max_out_len=38912, # 最大输出长度
         max_seq_len=40960, # 最大输入长度
-        batch_size=8, # 批处理大小
+        batch_size=6, # 批处理大小
         retry=100, # 重试次数
     )
 ]
